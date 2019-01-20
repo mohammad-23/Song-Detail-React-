@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import selectSongReducer from './selectedSong';
-import allReducer from './allReducer';
+import songsReducer from './allReducer';
 
 
 
 export default combineReducers({
-    songs: allReducer,
+    songs: songsReducer,
     selectedSong: selectSongReducer
 });
